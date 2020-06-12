@@ -28,7 +28,7 @@ ng g m shared/layout/navigation
 ```
 
 ```properties
-ng g m shared/layout/main-layout
+ng g m shared/layout/app-layouts
 ```
 
 ```properties
@@ -49,13 +49,20 @@ ng g c shared/layout/navigation
 ```
 
 ```properties
-ng g c shared/layout/main
-```
-
-```properties
 ng g c shared/layout/ribbon
 ```
 
+```properties
+ng g c shared/layout/main-layout
+```
+
+```properties
+ng g c shared/layout/empty-layout
+```
+
+```properties
+ng g c shared/layout/auth-layout
+```
 > **Nota:** Não esquecer ```exports: []``` quando necessário.
 
 **Definir componente *main* como default em todas as rotas.**  
