@@ -53,15 +53,15 @@ ng g c shared/layout/ribbon
 ```
 
 ```properties
-ng g c shared/layout/main-layout
+ng g c shared/layout/app-layouts/main-layout
 ```
 
 ```properties
-ng g c shared/layout/empty-layout
+ng g c shared/layout/app-layouts/empty-layout
 ```
 
 ```properties
-ng g c shared/layout/auth-layout
+ng g c shared/layout/app-layouts/auth-layout
 ```
 > **Nota:** Não esquecer ```exports: []``` quando necessário.
 
