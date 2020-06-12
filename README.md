@@ -25,16 +25,28 @@ my-project
 |   |   |   ├── services
 |   |   |   └── sore
 |   │   ├── features
-|   |   │   ├── forms
-|   |   │   └── shared
-|   |   |       ├── graphs
-|   |   |       ├── layout
-|   |   |       │   ├── footer
-|   |   |       │   ├── header
-|   |   |       │   ├── navigation
-|   |   |       |   └── layout.module.ts
-|   |   |       └── shared.module.ts
+|   |   │   ├── cadastros
+|   |   │   ├── financeiro
+|   |   │   ├── estoque
+|   |   │   ├── relatorios
+|   |   │   └── dashboard
 |   │   └── shared
+|   |       ├── calendar
+|   |       ├── chat
+|   |       ├── graphs
+|   |       ├── calendar
+|   |       ├── layout
+|   |       │   ├── footer
+|   |       │   ├── header
+|   |       │   ├── navigation
+|   |       |   └── layout.module.ts
+|   |       ├── ui
+|   |       │   ├── datatable
+|   |       │   ├── gallery
+|   |       │   ├── jquery-ui
+|   |       │   ├── tree-view
+|   |       |   └── ui.module.ts
+|   |       └── shared.module.ts
 |   ├── assets
 |   │   └── fonts
 |   │   └── img
@@ -46,8 +58,9 @@ my-project
 
 
 <details>
-  <summary>teste</summary>
-  npm install -g @angular/cli
+  <summary>Frutas</summary>
+  - Laranja  
+  - Abacaxi  
 </details>
 
 
