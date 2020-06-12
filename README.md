@@ -101,11 +101,11 @@ ng g m shared/layout/ui/material
 ```
 
 ```properties
-ng g c shared/layout/ui/mat-tree
+ng g c shared/layout/ui/material/mat-tree
 ```
 
 ```properties
-ng g c shared/layout/ui/mat-slider
+ng g c shared/layout/ui/material/mat-slider
 ```
 
 **Estrutura básica de arquivos**
