@@ -5,9 +5,10 @@
 npm i | install -g @angular/cli
 ```
 
-### Comandos
+### CLI | [ng generate](https://angular.io/cli/generate)
 | Comando | Descrição | Dica |
 |--|--|--| 
+|ng g \| generate -h \| --help | Help para um comando específico |
 |ng n \| new my-project | Novo projeto| "--routing --style scss" Adiciona rotas e estilo. |
 |ng serve | Emulada servidor web | "-o" Abre browser automaticamente. |
 |ng g \| generate c \| component teste | Novo componente | "--flat" ??? |
@@ -15,6 +16,7 @@ npm i | install -g @angular/cli
 |ng g c teste/teste | Novo componente dentro do módulo |
 |ng g cl \| class teste/teste.model | Nova classe |
 |ng set -g defaults.styleExt=scss | Altera estilo do projeto |
+
 
 
 ### Estrutura básica de arquivos
