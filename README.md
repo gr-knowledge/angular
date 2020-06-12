@@ -41,19 +41,19 @@ ng g c shared/layout/header
 ```
 
 ```properties
-ng n c shared/layout/footer --spec=false
+ng n c shared/layout/footer
 ```
 
 ```properties
-ng g c shared/layout/navigation --spec=false
+ng g c shared/layout/navigation
 ```
 
 ```properties
-ng g c shared/layout/main --spec=false
+ng g c shared/layout/main
 ```
 
 ```properties
-ng g c shared/layout/ribbon --spec=false
+ng g c shared/layout/ribbon
 ```
 
 > **Nota:** Não esquecer ```exports: []``` quando necessário.
