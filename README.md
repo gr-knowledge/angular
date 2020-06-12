@@ -57,7 +57,6 @@ const routes: Routes = [
 @Component({
   selector: 'app-root',
   template: '<router-outlet></router-outlet>',
-  styleUrls: ['./app.component.css']
 })
 ```
 
