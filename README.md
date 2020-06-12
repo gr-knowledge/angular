@@ -2,15 +2,17 @@
 
 ### Instalação
 ```properties
-npm install -g @angular/cli
+npm i | install -g @angular/cli
 ```
 
 ### Comandos
-| Comando | Descrição |
-|---------|-----------------------------------|
+| Comando | Descrição | Dica |
+|--|--|--| 
 |ng n \| new my-project | Novo projeto |
-|ng n \| new my-project --routing --style scss | Novo projeto com rotas e scss |
-|npm start | Emulador servidor web |
+|ng n \| new my-project | Novo projeto| "--routing --style scss" Adiciona rotas e estilo |
+|ng serve | Emulada servidor web | "-o" Abre browser automaticamente |
+|ng g \| generate c \| component my-comp | 
+|ng set -g defaults.styleExt=scss | Altera estilo do projeto |
 
 
 ### Estrutura básica de arquivos
@@ -51,6 +53,9 @@ my-project
 |   │   └── fonts
 |   │   └── img
 |   │   └── sound
+|   ├── environments
+|   │   ├── environments.prod.ts
+|   │   └── environments.ts
 |   ├── index.html
 |   └── styles.css
 └── package.json
