@@ -36,9 +36,7 @@ ng n c shared/layout/navigation
 ng n c shared/layout/main
 ```
 
-> :warning: **Nota:** É preciso realizar o ```exports: []``` para utilizar Módulos e Componentes externamente (em outro módulo).
-
-
+**Nota:** É preciso realizar o ```exports: []``` para utilizar Módulos e Componentes externamente (em outro módulo).
 
 
 **CLI | [ng generate](https://angular.io/cli/generate)**
