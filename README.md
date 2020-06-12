@@ -13,14 +13,26 @@ ng n meu-projeto --routing
 **Novos Módulos**
 ```properties
 ng n m shared
+```
+
+```properties
 ng n m shared/layout
 ```
 
 **Novos Componentes**
 ```properties
 ng n c shared/layout/header
+```
+
+```properties
 ng n c shared/layout/footer
+```
+
+```properties
 ng n c shared/layout/navigation
+```
+
+```properties
 ng n c shared/layout/main
 ```
 
