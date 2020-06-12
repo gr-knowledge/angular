@@ -12,16 +12,16 @@ ng n meu-projeto --routing
 
 **Novos Módulos**
 ```properties
-ng n m shared
+ng g m shared
 ```
 
 ```properties
-ng n m shared/layout
+ng g m shared/layout
 ```
 
 **Novos Componentes**
 ```properties
-ng n c shared/layout/header
+ng g c shared/layout/header
 ```
 
 ```properties
@@ -29,11 +29,11 @@ ng n c shared/layout/footer
 ```
 
 ```properties
-ng n c shared/layout/navigation
+ng g c shared/layout/navigation
 ```
 
 ```properties
-ng n c shared/layout/main
+ng g c shared/layout/main
 ```
 
 > **Nota:** Não esquecer ```exports: []``` quando necessário.
@@ -59,6 +59,15 @@ const routes: Routes = [
   template: '<router-outlet></router-outlet>',
 })
 ```
+
+**Adicionando [Angular Material](https://material.angular.io/guide/getting-started)**
+```properties
+ng add @angular/material
+```
+
+
+
+
 
 **Estrutura básica de arquivos**
 ```
