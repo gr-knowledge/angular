@@ -92,9 +92,21 @@ const routes: Routes = [
 ng add @angular/material
 ```
 
+```properties
+ng g m shared/layout/ui
+```
 
+```properties
+ng g m shared/layout/ui/material
+```
 
+```properties
+ng g c shared/layout/ui/mat-tree
+```
 
+```properties
+ng g c shared/layout/ui/mat-slider
+```
 
 **Estrutura básica de arquivos**
 ```
