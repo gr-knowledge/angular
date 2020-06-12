@@ -8,8 +8,8 @@ npm install -g @angular/cli
 ### Comandos
 | Comando | Descrição |
 |---------|-----------------------------------|
-|ng n\|new my-project | Novo projeto |
-|ng n\|new my-project --routing --style scss | Novo projeto com rotas e scss |
+|ng n \| new my-project | Novo projeto |
+|ng n \| new my-project --routing --style scss | Novo projeto com rotas e scss |
 |npm start | Emulador servidor web |
 
 
@@ -17,13 +17,28 @@ npm install -g @angular/cli
 ```
 my-project
 ├── dist
+├── node_modules
 ├── src
 |   ├── app
 |   │   ├── core
+|   |   |   ├── guards
+|   |   |   ├── services
+|   |   |   └── sore
 |   │   ├── features
+|   |   │   ├── forms
+|   |   │   └── shared
+|   |   |       ├── graphs
+|   |   |       ├── layout
+|   |   |       │   ├── footer
+|   |   |       │   ├── header
+|   |   |       │   ├── navigation
+|   |   |       |   └── layout.module.ts
+|   |   |       └── shared.module.ts
 |   │   └── shared
 |   ├── assets
-|   │   └── (*.png, *.mp3)
+|   │   └── fonts
+|   │   └── img
+|   │   └── sound
 |   ├── index.html
 |   └── styles.css
 └── package.json
