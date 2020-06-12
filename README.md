@@ -8,10 +8,12 @@ npm i | install -g @angular/cli
 ### Comandos
 | Comando | Descrição | Dica |
 |--|--|--| 
-|ng n \| new my-project | Novo projeto |
 |ng n \| new my-project | Novo projeto| "--routing --style scss" Adiciona rotas e estilo |
 |ng serve | Emulada servidor web | "-o" Abre browser automaticamente |
-|ng g \| generate c \| component my-comp | 
+|ng g \| generate c \| component teste | Novo componente |
+|ng g m \| module teste | Novo módulo | "--spec=false" Não gera arquivo .spec |
+|ng g c teste/teste | Novo componente dentro do módulo |
+|ng g cl \| class teste/teste.model | Nova classe |
 |ng set -g defaults.styleExt=scss | Altera estilo do projeto |
 
 
@@ -60,6 +62,12 @@ my-project
 |   └── styles.css
 └── package.json
 ```
+
+### Eventos
+| Evento | Exemplo | Descrição |
+|--|--|--| 
+| on-input | ? |
+| on-click="onTest()" | (click)="onText()"
 
 
 <details>
