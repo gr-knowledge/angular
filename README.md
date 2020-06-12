@@ -36,7 +36,9 @@ ng n c shared/layout/navigation
 ng n c shared/layout/main
 ```
 
-> :warning: **If you are using mobile browser**: Be very careful here!
+> :warning: **Nota:** É preciso realizar o ```exports: []``` para utilizar Módulos e Componentes externamente (em outro módulo).
+
+
 
 
 **CLI | [ng generate](https://angular.io/cli/generate)**
