@@ -63,13 +63,6 @@ my-project
 └── package.json
 ```
 
-### Eventos
-| Evento | Exemplo | Descrição |
-|--|--|--| 
-| on-input | ? |
-| on-click="onTest()" | (click)="onText()"
-
-
 <details>
   <summary>Frutas</summary>
   - Laranja  
