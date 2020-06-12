@@ -41,7 +41,7 @@ ng g c shared/layout/header
 ```
 
 ```properties
-ng n c shared/layout/footer
+ng g c shared/layout/footer
 ```
 
 ```properties
