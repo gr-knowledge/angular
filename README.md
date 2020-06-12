@@ -1,11 +1,30 @@
 # angular
 
-### Instalação
+**Instalação**
 ```properties
 npm i | install -g @angular/cli
 ```
 
-### CLI | [ng generate](https://angular.io/cli/generate)
+### Novo Projeto
+```properties
+ng n meu-projeto --routing
+```
+
+**Novos Módulos**
+```properties
+ng n m shared
+ng n m shared/layout
+```
+
+**Novos Componentes**
+```properties
+ng n c shared/layout/header
+ng n c shared/layout/footer
+ng n c shared/layout/navigation
+ng n c shared/layout/main
+```
+
+**CLI | [ng generate](https://angular.io/cli/generate)**
 | Comando | Descrição | Dica |
 |--|--|--| 
 |ng g \| generate -h \| --help | Help para um comando específico |
@@ -19,7 +38,7 @@ npm i | install -g @angular/cli
 
 
 
-### Estrutura básica de arquivos
+**Estrutura básica de arquivos**
 ```
 my-project
 ├── dist
