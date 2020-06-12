@@ -36,6 +36,9 @@ ng n c shared/layout/navigation
 ng n c shared/layout/main
 ```
 
+> :warning: **If you are using mobile browser**: Be very careful here!
+
+
 **CLI | [ng generate](https://angular.io/cli/generate)**
 | Comando | Descrição | Dica |
 |--|--|--| 
