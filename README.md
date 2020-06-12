@@ -36,7 +36,17 @@ ng n c shared/layout/navigation
 ng n c shared/layout/main
 ```
 
-**Nota:** É preciso realizar o ```exports: []``` para utilizar Módulos e Componentes externamente (em outro módulo).
+> **Nota:** É preciso realizar o ```exports: []``` para utilizar Módulos e Componentes externamente (em outro módulo).
+
+**Definir *MainComponent* como default em todas as rotas.**  
+```javascript
+// app-routing.module.ts
+
+const routes: Routes = [
+  {path: '', component: MainComponent},
+];
+```
+
 
 
 **CLI | [ng generate](https://angular.io/cli/generate)**
