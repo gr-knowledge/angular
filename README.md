@@ -143,8 +143,8 @@ my-project
 |   |       |   └── ui.module.ts
 |   |       └── shared.module.ts
 |   ├── assets
-|   │   └── fonts
-|   │   └── img
+|   │   ├── fonts
+|   │   ├── img
 |   │   └── sound
 |   ├── environments
 |   │   ├── environments.prod.ts
