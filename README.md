@@ -19,21 +19,41 @@ ng g m shared
 ng g m shared/layout
 ```
 
+```properties
+ng g m shared/layout/header
+```
+
+```properties
+ng g m shared/layout/navigation
+```
+
+```properties
+ng g m shared/layout/main-layout
+```
+
+```properties
+ng g m shared/layout/ribbon
+```
+
 **Novos Componentes**
 ```properties
 ng g c shared/layout/header
 ```
 
 ```properties
-ng n c shared/layout/footer
+ng n c shared/layout/footer --spec=false
 ```
 
 ```properties
-ng g c shared/layout/navigation
+ng g c shared/layout/navigation --spec=false
 ```
 
 ```properties
-ng g c shared/layout/main
+ng g c shared/layout/main --spec=false
+```
+
+```properties
+ng g c shared/layout/ribbon --spec=false
 ```
 
 > **Nota:** Não esquecer ```exports: []``` quando necessário.
