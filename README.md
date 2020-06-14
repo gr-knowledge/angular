@@ -36,6 +36,16 @@ ng g m shared/layout/ribbon
 ```
 
 **Novos Componentes**
+
+***angular.json*** (Desativar criação automática de *.spec)
+```properties
+"schematics": {
+  "@schematics/angular:component": {
+    "skipTests": true
+  }
+},
+```
+
 ```properties
 ng g c shared/layout/header
 ```
@@ -65,7 +75,7 @@ ng g c shared/layout/app-layouts/auth-layout
 ```
 > **Nota:** Não esquecer ```exports: []``` quando necessário.
 
-**Definir componente *main* como default em todas as rotas.**  
+**Definir componente *main* como default para todas as rotas.**  
 ```javascript
 // app-routing.module.ts
 
