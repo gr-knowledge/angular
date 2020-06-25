@@ -36,7 +36,16 @@ npm start example
 ng build --prod
 ```
 ```propeties
-ng build --project blog --prod
+ng build --apps example --prod
+```
+```propeties
+ng build my-lib
+```
+```propeties
+ng build my-lib --watch
+```
+```propeties
+ng build my-lib --prod
 ```
 
 > Build das libs
