@@ -31,6 +31,13 @@ npm start example
 
 
 
+> Build todos os apps
+```propeties
+ng build --prod
+``````propeties
+ng build --project blog --prod
+```
+
 > Build das libs
 ```propeties
 npm run build:libs
