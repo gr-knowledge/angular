@@ -31,10 +31,11 @@ npm start example
 
 
 
-> Build todos os apps
+> Build
 ```propeties
 ng build --prod
-``````propeties
+```
+```propeties
 ng build --project blog --prod
 ```
 
