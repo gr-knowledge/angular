@@ -11,7 +11,7 @@ ng new monorepo-client --createApplication=false --newProjectRoot=apps
 
 > Gera novo app
 ```propeties
-ng g app example --prefix=app
+ng g app examples --prefix=app
 ```
 
 ```propeties
