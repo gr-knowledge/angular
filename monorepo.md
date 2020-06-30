@@ -6,7 +6,7 @@ https://angular.io/cli/new
 
 > Cria nova base com monorepo
 ```propeties
-ng new monorepo-client --createApplication=false --newProjectRoot=apps
+ng new workspace-client --createApplication=false --newProjectRoot=apps
 ```
 
 > Gera novo app
