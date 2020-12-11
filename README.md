@@ -3,7 +3,7 @@
 **Instalação**
 ```properties
 npm install -g @angular/cli (ultima versão)
-npm install -g @angular/cli@7.11.4
+npm install -g @angular/cli@7.1.4
 ```
 
 **Novo Projeto**
